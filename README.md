@@ -1,23 +1,22 @@
-# ✨ Welcome to Your Spark Template!
-You've just launched your brand-new Spark Template Codespace — everything’s fired up and ready for you to explore, build, and create with Spark!
+# Volunteer Translation Assistant
 
-This template is your blank canvas. It comes with a minimal setup to help you get started quickly with Spark development.
+A simple, offline-friendly app that helps English-speaking volunteers communicate with Spanish and Chinese-speaking guests using phonetic pronunciations.
 
-🚀 What's Inside?
-- A clean, minimal Spark environment
-- Pre-configured for local development
-- Ready to scale with your ideas
-  
-🧠 What Can You Do?
+## Features
 
-Right now, this is just a starting point — the perfect place to begin building and testing your Spark applications.
+- Toggle between Spanish and Chinese
+- 8 common phrases with phonetic guides
+- Mobile-friendly, quick to scan
 
-🧹 Just Exploring?
-No problem! If you were just checking things out and don’t need to keep this code:
+## Local development
 
-- Simply delete your Spark.
-- Everything will be cleaned up — no traces left behind.
+```bash
+npm install
+npm run dev
+```
 
-📄 License For Spark Template Resources 
+## Deploy
 
-The Spark Template files and resources from GitHub are licensed under the terms of the MIT license, Copyright GitHub, Inc.
+Push to `main` to deploy to GitHub Pages.
+
+Live site: [https://karangattu.github.io/volunteer-translator/](https://karangattu.github.io/volunteer-translator/)
